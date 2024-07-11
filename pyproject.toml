@@ -1,0 +1,64 @@
+[project]
+name = "younited-genaibots"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Clement HUSSENOT-DESENONGES", email = "clement.hussenot-desenonges@believe.com"},
+]
+dependencies = [
+    "aiohttp~=3.9.5",
+    "asynctest",
+    "coloredlogs~=15.0.1",
+    "fastapi~=0.110.2",
+    "gunicorn",
+    "opentelemetry-api",
+    "opentelemetry-exporter-otlp",
+    "opentelemetry-instrumentation-fastapi",
+    "opentelemetry-sdk",
+    "pillow~=10.3.0",
+    "pytz~=2024.1",
+    "PyYAML~=6.0.1",
+    "pypdf~=4.2.0",
+    "pytest~=8.1.1",
+    "pytest-asyncio",
+    "python-dotenv~=1.0.1",
+    "requests~=2.31.0",
+    "ruff==0.4.2",
+    "uvicorn~=0.29.0",
+    "pytest-aiohttp",
+    "pytest-mock",
+    "pandas",
+    "coverage",
+    "requests-mock",
+    "azure-identity",
+    "azure-monitor-opentelemetry-exporter",
+    "azure-storage-blob",
+    "azure-monitor-opentelemetry",
+    "slack-sdk",
+    "botbuilder~=0.0.1",
+    "botbuilder-core",
+    "openai~=1.23.1",
+    "mistralai",
+    "vertexai",
+    "matplotlib",
+    "plotly~=5.22.0",
+    "scipy",
+    "scikit-learn",
+    "azure-devops",
+    "beautifulsoup4~=4.12.3",
+    "azure-mgmt-resource",
+    "azure-mgmt-applicationinsights",
+    "azure-keyvault",
+    "starlette~=0.37.2",
+    "pydantic~=2.7.0",
+    "numpy",
+    "msal~=1.28.0",
+    "msrest~=0.7.1",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
